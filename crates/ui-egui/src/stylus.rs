@@ -53,15 +53,21 @@ mod web {
 
     use super::{ENABLED, FINGER_PRESS};
 
-    /// A touch this soon after the pen was last down or seen hovering is a palm.
-    const PEN_GRACE_MS: f64 = 700.0;
+    /// A touch while the pen is down or this soon after it lifts is a palm. Android already
+    /// ignores a palm resting on the screen, and a Pixel Tablet showed deliberate finger swipes
+    /// about half a second after the pen, so the window only covers the pen being lifted.
+    const PEN_GRACE_MS: f64 = 300.0;
+    /// A palm's `touchstart` follows its `pointerdown` within this long.
+    const SAME_CONTACT_MS: f64 = 100.0;
     const STORAGE_KEY: &str = "pdfcraft-stylus";
 
     #[derive(Default)]
     struct State {
         pen_down: bool,
-        /// `performance.now()` of the last pen event (press, move, hover or lift).
-        last_pen: f64,
+        /// `performance.now()` of the last pen lift.
+        pen_lift: f64,
+        /// When the latest palm `pointerdown` was dropped, until its `touchstart` arrives.
+        palm_pressed: Option<f64>,
         /// Touches set aside as palms: every later event of theirs is dropped too.
         palm_pointers: Vec<i32>,
         palm_touches: Vec<i32>,
@@ -76,7 +82,7 @@ mod web {
     }
 
     fn pen_near(s: &State) -> bool {
-        s.pen_down || now() - s.last_pen < PEN_GRACE_MS
+        s.pen_down || now() - s.pen_lift < PEN_GRACE_MS
     }
 
     fn drop_event(e: &Event) {
@@ -96,12 +102,12 @@ mod web {
         let (down, up) = (ty == "pointerdown", ty == "pointerup" || ty == "pointercancel");
         STATE.with_borrow_mut(|s| match kind.as_str() {
             "pen" => {
-                s.last_pen = now();
                 if down {
                     s.pen_down = true;
                     FINGER_PRESS.store(false, Ordering::Relaxed);
                 } else if up {
                     s.pen_down = false;
+                    s.pen_lift = now();
                 }
                 if !ENABLED.swap(true, Ordering::Relaxed)
                     && let Some(w) = web_sys::window()
@@ -119,6 +125,7 @@ mod web {
                 } else if down {
                     if pen_near(s) {
                         s.palm_pointers.push(id);
+                        s.palm_pressed = Some(now());
                         drop_event(&e);
                     } else {
                         FINGER_PRESS.store(true, Ordering::Relaxed);
@@ -131,28 +138,25 @@ mod web {
         });
     }
 
-    /// eframe also reads touch events; drop the ones made only by palms, keep the pen's own
-    /// (Chrome reports a stylus touch with `touchType: "stylus"`).
+    /// eframe also reads touch events; drop the ones made only by palms. The pen makes touch
+    /// events too, and Chrome on Android leaves their `touchType` unset, so a touch counts as a
+    /// palm only when it starts right after a palm's `pointerdown` (browsers send that first).
     fn on_touch(e: TouchEvent) {
         if !ENABLED.load(Ordering::Relaxed) {
             return;
         }
         let ty = e.type_();
         let changed = e.changed_touches();
-        let mut ids = Vec::new();
-        for i in 0..changed.length() {
-            let Some(t) = changed.get(i) else { continue };
-            let stylus = js_sys::Reflect::get(&t, &"touchType".into()).ok().and_then(|v| v.as_string()).is_some_and(|v| v == "stylus");
-            if stylus {
-                return;
-            }
-            ids.push(t.identifier());
-        }
+        let ids: Vec<i32> = (0..changed.length()).filter_map(|i| changed.get(i)).map(|t| t.identifier()).collect();
         if ids.is_empty() {
             return;
         }
         STATE.with_borrow_mut(|s| {
-            let palms = if ty == "touchstart" { pen_near(s) } else { ids.iter().all(|id| s.palm_touches.contains(id)) };
+            let palms = if ty == "touchstart" {
+                s.palm_pressed.take().is_some_and(|at| now() - at < SAME_CONTACT_MS)
+            } else {
+                ids.iter().all(|id| s.palm_touches.contains(id))
+            };
             if !palms {
                 return;
             }
