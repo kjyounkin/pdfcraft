@@ -1850,8 +1850,8 @@ milestone = "M3"
 status = "partial"
 commands = []
 tools = []
-evidence = ["crates/ui-egui/tests/it/pickers.rs::a_startup_url_opens_in_front_when_the_user_has_not_started_working", "crates/ui-egui/tests/it/pickers.rs::a_late_startup_url_preserves_the_current_edit_workspace_and_save_target", "crates/ui-egui/tests/it/pickers.rs::deliberate_browser_file_opens_still_activate_the_new_tab"]
-notes = "web build works; a late startup ?file= download opens in a background tab after the user starts working, preserving the active document and Save target (#171). IndexedDB/OPFS recent list and download flow are M3.10"
+evidence = ["crates/ui-egui/tests/it/pickers.rs::a_startup_url_opens_in_front_when_the_user_has_not_started_working", "crates/ui-egui/tests/it/pickers.rs::a_late_startup_url_preserves_the_current_edit_workspace_and_save_target", "crates/ui-egui/tests/it/pickers.rs::deliberate_browser_file_opens_still_activate_the_new_tab", "crates/ui-egui/src/stylus.rs::a_finger_pans_with_pen_tools_only_in_stylus_mode"]
+notes = "web build works; a late startup ?file= download opens in a background tab after the user starts working, preserving the active document and Save target (#171). IndexedDB/OPFS recent list and download flow are M3.10. Stylus mode for pen tablets in the browser: once a pen has been used (remembered; ?stylus=on|off), the pen keeps the chosen markup, ink or select tool, a finger drag moves the page, and touches starting while the pen is down or within 0.3 s of its lift are dropped as palms; the browser's pointerType is read ahead of eframe. Checked on a Pixel Tablet in Chrome only; not on iPad or Windows pens, and native desktop pens are separate (#2726, #3650)"
 
 [[feature]]
 id = "view.large-document-performance"

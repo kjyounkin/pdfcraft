@@ -141,6 +141,7 @@ pub mod portable;
 mod protect;
 mod recovery;
 pub mod scroll_speed;
+pub mod stylus;
 #[cfg(not(target_arch = "wasm32"))]
 mod system_fonts;
 mod tab_context;

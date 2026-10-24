@@ -2714,6 +2714,8 @@ fn page_scroll<R>(
 /// Draws the document tab at `index`: its notice bars, then its pages (or the Organize grid) in a
 /// scroll area with this frame's zoom, scrolling, tool input, overlays and render requests.
 pub fn document_area(app: &mut PdfCraftApp, index: usize, ui: &mut egui::Ui) {
+    // Stylus mode: a finger drag moves the page while the pen keeps the chosen tool.
+    let page_tool = crate::stylus::page_tool(app.quick_tool);
     let t = Tokens::get(ui.ctx());
     // Keyboard scrolling applies to this frame's page view only, never later.
     let key_scroll = std::mem::take(&mut app.views[index].key_scroll);
@@ -3031,7 +3033,7 @@ pub fn document_area(app: &mut PdfCraftApp, index: usize, ui: &mut egui::Ui) {
     let mut scroll = egui::ScrollArea::both().auto_shrink([false, false]).scroll_source(egui::scroll_area::ScrollSource {
         drag: if middle_gesture {
             egui::scroll_area::DragScroll::Never
-        } else if app.quick_tool == QuickTool::Hand {
+        } else if page_tool == QuickTool::Hand {
             egui::scroll_area::DragScroll::Always
         } else {
             egui::scroll_area::DragScroll::OnTouch
@@ -3054,7 +3056,7 @@ pub fn document_area(app: &mut PdfCraftApp, index: usize, ui: &mut egui::Ui) {
     // page only after that frame was drawn, a frame behind. The frame egui tells the drag from a
     // click, the page catches up with all the pointer has moved since the press. A jump asked for
     // below still wins.
-    if app.quick_tool == QuickTool::Hand
+    if page_tool == QuickTool::Hand
         && !middle_gesture
         && let Some(id) = view.page_widget.filter(|id| ui.ctx().is_being_dragged(*id))
     {
@@ -3112,8 +3114,8 @@ pub fn document_area(app: &mut PdfCraftApp, index: usize, ui: &mut egui::Ui) {
     }
     let sharp_held = now_scale < view.sharp_hold_until;
     view.current_scale_tag = tag;
-    let hand = app.quick_tool == QuickTool::Hand;
-    let tool = app.quick_tool;
+    let hand = page_tool == QuickTool::Hand;
+    let tool = page_tool;
     // Text selection runs for the Select tool and for the markup tools (highlight…).
     let selects_text = match tool {
         QuickTool::Comment(t) => t.markup().is_some() || t == comments::CommentTool::ReplaceText,
