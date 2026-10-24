@@ -28,6 +28,21 @@ be proposed upstream; `unofficial-build` adds the removal of upstream's branding
 Everything else, including the documentation, is upstream's: see the
 [upstream README](https://github.com/storytold/pdfcraft#readme).
 
+## Keeping up with upstream
+
+This fork follows upstream's releases, not its day-to-day `main`. When PdfCraft publishes a
+release, the release is merged into `stylus-mode`, and `stylus-mode` into `unofficial-build`.
+Merges only: published history is never rewritten or force-pushed. Before either branch is
+pushed, `unofficial-build` must pass two checks:
+
+- **Branding:** no ArtCraft marks, name or community links have come back with the update.
+- **Tests:** the UI test suite, including the stylus-mode test, and the app's link tests pass,
+  and the web version builds.
+
+If a release can't be merged cleanly, the fork stays on the previous release until the conflict is
+resolved by hand. Upstream's license and third-party notices (NOTICE, ATTRIBUTION.md) are always
+carried over as upstream wrote them.
+
 ## Building the web version
 
 ```sh
