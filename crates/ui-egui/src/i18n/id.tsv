@@ -603,7 +603,6 @@
 	From {file}	Dari {file}
 	From:	Dari:
 	Front side only	Hanya sisi depan
-	Get help, share feedback and follow development on Discord.	Dapatkan bantuan, berikan masukan, dan ikuti pengembangan di Discord.
 	Go to a page view	Ke tampilan halaman
 	Go to page {p}	Ke halaman {p}
 	Go to the page	Ke halaman tersebut
@@ -655,8 +654,6 @@
 	JavaScript Console	Konsol JavaScript
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript dimatikan (Preferensi > JavaScript).
 	JavaScript, e.g. getField("total").value	JavaScript, misalnya getField("total").value
-	Join our Discord	Gabung ke Discord kami
-	Join the ArtCraft community	Gabung ke komunitas ArtCraft
 	Justify	Ratakan kanan-kiri
 	Keep source fonts	Pertahankan font sumber
 	Keep tool selected	Pertahankan alat terpilih
@@ -847,7 +844,6 @@
 	Pages:	Halaman:
 	Pages: {k} of {n}	Halaman: {k} dari {n}
 	Paper:	Kertas:
-	Part of	Bagian dari
 	Password	Kata sandi
 	Password required	Kata sandi diperlukan
 	Password security	Keamanan kata sandi
@@ -1324,7 +1320,6 @@
 	Archive documents	Arsipkan dokumen
 	Area	Luas
 	Arrow	Panah
-	ArtCraft website	Situs ArtCraft
 	Ask about this document	Tanyakan tentang dokumen ini
 	Attach a file	Lampirkan file
 	Attach file	Lampirkan file
@@ -1459,7 +1454,6 @@
 	Insert text	Sisipkan teks
 	JavaScript	JavaScript
 	JavaScript console…	Konsol JavaScript…
-	Join the ArtCraft Discord	Gabung ke Discord ArtCraft
 	Light gray	Abu-abu muda
 	Line	Garis
 	Link	Tautan
@@ -1490,8 +1484,6 @@
 	Page options	Opsi halaman
 	Page transitions	Transisi halaman
 	Paste pages	Tempel halaman
-	PdfCraft on GitHub	PdfCraft di GitHub
-	PdfCraft web page	Halaman web PdfCraft
 	Perimeter	Keliling
 	Pin folder to Home…	Sematkan folder ke Beranda…
 	PostScript / EPS	PostScript / EPS
@@ -2751,3 +2743,7 @@ theme	Appearance	Tampilan
 	field names can't contain a period: {name}	nama kolom tidak boleh berisi titik: {name}
 	two cells would both be named {name}	dua sel akan sama-sama bernama {name}
 	a field named {name} already exists	kolom bernama {name} sudah ada
+	Report a problem with this build	Laporkan masalah pada build ini
+	This build on GitHub	Build ini di GitHub
+	Upstream PdfCraft on GitHub	PdfCraft asli di GitHub
+	Upstream PdfCraft releases	Rilis PdfCraft asli

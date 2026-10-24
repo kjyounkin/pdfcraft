@@ -91,7 +91,6 @@
 	Flatten Fill & Sign when saving	Aplana Omple i signa en desar
 	Text, marks and signatures become part of the page. Other comments stay editable.	El text, les marques i les signatures passen a formar part de la pàgina. Els altres comentaris continuen sent editables.
 	OK	D'acord
-	Join our Discord	Uneix-te al nostre Discord
 	Close	Tanca
 	Next / previous match	Coincidència següent / anterior
 	Copy selected text	Copia el text seleccionat
@@ -161,8 +160,6 @@
 	Current page — type a page number or label (such as iv) and press Enter	Pàgina actual — escriu un número o una etiqueta de pàgina (com ara iv) i prem Retorn
 	Welcome to PdfCraft	Et donem la benvinguda a PdfCraft
 	An open-source PDF workbench — local, private, and scriptable.	Un banc de treball de PDF de codi obert — local, privat i programable.
-	Join the ArtCraft community	Uneix-te a la comunitat d'ArtCraft
-	Get help, share feedback and follow development on Discord.	Obtén ajuda, comparteix comentaris i segueix el desenvolupament a Discord.
 	Recommended tools	Eines recomanades
 	Use now	Utilitza-ho ara
 	Open file	Obre el fitxer
@@ -307,10 +304,6 @@
 	Split document…	Divideix el document…
 	Number pages…	Numera les pàgines…
 	Keyboard shortcuts	Dreceres de teclat
-	Join the ArtCraft Discord	Uneix-te al Discord d'ArtCraft
-	PdfCraft web page	Pàgina web de PdfCraft
-	PdfCraft on GitHub	PdfCraft a GitHub
-	ArtCraft website	Lloc web d'ArtCraft
 	Check for updates…	Cerca actualitzacions…
 	About PdfCraft	Quant a PdfCraft
 	Export a PDF	Exporta un PDF
@@ -1397,7 +1390,6 @@
 	Discard	Descarta
 	Version {v}	Versió {v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	Una aplicació PDF de codi obert i clean-room escrita en Rust. MIT OR Apache-2.0.
-	Part of	Part de
 	Summarize Options	Opcions de resum
 	Choose a layout:	Tria una disposició:
 	Comments only	Només comentaris
@@ -2774,3 +2766,7 @@ theme	Appearance	Aspecte
 	field names can't contain a period: {name}	els noms dels camps no poden contenir cap punt: {name}
 	two cells would both be named {name}	dues cel·les es dirien {name}
 	a field named {name} already exists	ja existeix un camp anomenat {name}
+	Report a problem with this build	Informa d'un problema amb aquesta compilació
+	This build on GitHub	Aquesta compilació a GitHub
+	Upstream PdfCraft on GitHub	PdfCraft original a GitHub
+	Upstream PdfCraft releases	Versions del PdfCraft original

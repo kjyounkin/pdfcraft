@@ -96,7 +96,6 @@
 	Side panels	پانێڵە لاوەکییەکان
 	Enable Acrobat JavaScript	چالاککردنی Acrobat JavaScript
 	OK	باشە
-	Join our Discord	بەشداریکردن لە Discordی ئێمە
 	Close	داخستن
 	Next / previous match	گونجاوی داهاتوو / پێشوو
 	Copy selected text	کۆپیکردنی دەقی هەڵبژێردراو
@@ -167,8 +166,6 @@
 	Zoom — type a percentage and press Enter	زووم — ڕێژەیەکی سەدی بنووسە و Enter دابگرە
 	Welcome to PdfCraft	بەخێربێیت بۆ PdfCraft
 	An open-source PDF workbench — local, private, and scriptable.	مێزێکی کاری سەرچاوەکراوە بۆ PDF — ناوخۆیی، تایبەت و بەرنامەڕێژکراو.
-	Join the ArtCraft community	بەشداریکردن لە کۆمەڵگەی ArtCraft
-	Get help, share feedback and follow development on Discord.	یارمەتی وەربگرە، بۆچوونەکانت بڵاو بکەرەوە و بەدوای پەرەپێداندا بکەوە لە Discord.
 	Recommended tools	ئامرازی پێشنیارکراو
 	Use now	ئێستا بەکاری بهێنە
 	Open file	کردنەوەی فایل
@@ -313,10 +310,6 @@
 	Split document…	دابەشکردنی بەڵگەنامە…
 	Number pages…	ژمارەدان بە پەڕەکان…
 	Keyboard shortcuts	کورتەڕێگاکانی تەختەکلیل
-	Join the ArtCraft Discord	بەشداریکردن لە Discordی ArtCraft
-	PdfCraft web page	لاپەڕەی وێبی PdfCraft
-	PdfCraft on GitHub	PdfCraft لە GitHub
-	ArtCraft website	ماڵپەڕی ArtCraft
 	Check for updates…	پشکنین بۆ نوێکردنەوەکان…
 	About PdfCraft	دەربارەی PdfCraft
 	Export a PDF	هەناردەکردنی PDFێک
@@ -1414,7 +1407,6 @@
 	Discard	فڕێدان
 	Version {v}	وەشان {v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	بەرنامەیەکی PDF ی سەرچاوە-کراوە کە بە Rust نووسراوە و بە شێوازی ژووری پاک دروستکراوە. MIT OR Apache-2.0.
-	Part of	بەشێک لە
 	Summarize Options	هەڵبژاردەکانی کورتکردنەوە
 	Choose a layout:	شێوازێک هەڵبژێرە:
 	Comments only	تەنیا لێدوانەکان
@@ -2713,3 +2705,7 @@ certificate	Version	وەشان
 	Make properties default	کردنی تایبەتمەندییەکان بە بنەڕەتی
 	Pages selected	پەڕە هەڵبژێردراوەکان
 	Page properties	تایبەتمەندییەکانی پەڕە
+	Report a problem with this build	ڕاپۆرتکردنی کێشەیەک لەم وەشانەدا
+	This build on GitHub	ئەم وەشانە لە GitHub
+	Upstream PdfCraft on GitHub	PdfCraftی ڕەسەن لە GitHub
+	Upstream PdfCraft releases	وەشانەکانی PdfCraftی ڕەسەن

@@ -85,7 +85,6 @@
 	Side panels	แผงด้านข้าง
 	Enable Acrobat JavaScript	เปิดใช้ Acrobat JavaScript
 	OK	ตกลง
-	Join our Discord	เข้าร่วม Discord ของเรา
 	Close	ปิด
 	Next / previous match	ผลลัพธ์ถัดไป / ก่อนหน้า
 	Copy selected text	คัดลอกข้อความที่เลือก
@@ -155,8 +154,6 @@
 	Current page — type a page number or label (such as iv) and press Enter	หน้าปัจจุบัน — พิมพ์เลขหน้าหรือป้ายหน้า (เช่น iv) แล้วกด Enter
 	Welcome to PdfCraft	ยินดีต้อนรับสู่ PdfCraft
 	An open-source PDF workbench — local, private, and scriptable.	โต๊ะทำงาน PDF แบบโอเพนซอร์ส — ทำงานในเครื่อง เป็นส่วนตัว และเขียนสคริปต์ได้
-	Join the ArtCraft community	เข้าร่วมชุมชน ArtCraft
-	Get help, share feedback and follow development on Discord.	ขอความช่วยเหลือ ส่งความคิดเห็น และติดตามการพัฒนาได้ที่ Discord
 	Recommended tools	เครื่องมือแนะนำ
 	Use now	ใช้ตอนนี้
 	Open file	เปิดไฟล์
@@ -301,10 +298,6 @@
 	Split document…	แบ่งเอกสาร…
 	Number pages…	ใส่เลขหน้า…
 	Keyboard shortcuts	แป้นพิมพ์ลัด
-	Join the ArtCraft Discord	เข้าร่วม Discord ของ ArtCraft
-	PdfCraft web page	หน้าเว็บ PdfCraft
-	PdfCraft on GitHub	PdfCraft บน GitHub
-	ArtCraft website	เว็บไซต์ ArtCraft
 	Check for updates…	ตรวจหาการอัปเดต…
 	About PdfCraft	เกี่ยวกับ PdfCraft
 	Export a PDF	ส่งออก PDF
@@ -1389,7 +1382,6 @@
 	Discard	ละทิ้ง
 	Version {v}	รุ่น {v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	โปรแกรม PDF โอเพนซอร์สที่เขียนขึ้นใหม่ทั้งหมดด้วยภาษา Rust สัญญาอนุญาต MIT หรือ Apache-2.0
-	Part of	ส่วนหนึ่งของ
 	Summarize Options	ตัวเลือกการสรุป
 	Choose a layout:	เลือกเค้าโครง:
 	Comments only	ความคิดเห็นเท่านั้น
@@ -2681,3 +2673,7 @@ key	Space	Space
 	Page properties	คุณสมบัติหน้า
 	The password must have at least 8 characters.	รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร
 theme	Appearance	ลักษณะที่ปรากฏ
+	Report a problem with this build	รายงานปัญหาของบิลด์นี้
+	This build on GitHub	บิลด์นี้บน GitHub
+	Upstream PdfCraft on GitHub	PdfCraft ต้นฉบับบน GitHub
+	Upstream PdfCraft releases	รุ่นเผยแพร่ของ PdfCraft ต้นฉบับ

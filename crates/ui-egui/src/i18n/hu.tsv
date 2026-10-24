@@ -67,7 +67,6 @@
 	Side panels	Oldalsó panelek
 	Enable Acrobat JavaScript	Acrobat JavaScript engedélyezése
 	OK	OK
-	Join our Discord	Csatlakozás a Discordhoz
 	Close	Bezárás
 	Next / previous match	Következő / előző találat
 	Copy selected text	Kijelölt szöveg másolása
@@ -138,8 +137,6 @@
 	Zoom — type a percentage and press Enter	Nagyítás – írjon be egy százalékértéket, és nyomja meg az Entert
 	Welcome to PdfCraft	Üdvözöljük a PdfCraftban
 	An open-source PDF workbench — local, private, and scriptable.	Nyílt forráskódú PDF-munkapad — helyi, privát és parancsfájlokkal vezérelhető.
-	Join the ArtCraft community	Csatlakozz az ArtCraft közösséghez
-	Get help, share feedback and follow development on Discord.	Kérj segítséget, oszd meg a véleményed, és kövesd a fejlesztést a Discordon.
 	Recommended tools	Ajánlott eszközök
 	Use now	Használat most
 	Open file	Fájl megnyitása
@@ -284,10 +281,6 @@
 	Split document…	Dokumentum felosztása…
 	Number pages…	Oldalak számozása…
 	Keyboard shortcuts	Billentyűparancsok
-	Join the ArtCraft Discord	Csatlakozás az ArtCraft Discordhoz
-	PdfCraft web page	A PdfCraft weblapja
-	PdfCraft on GitHub	PdfCraft a GitHubon
-	ArtCraft website	Az ArtCraft webhelye
 	Check for updates…	Frissítések keresése…
 	About PdfCraft	A PdfCraftról
 	Export a PDF	PDF exportálása
@@ -1418,7 +1411,6 @@
 	Discard	Elvetés
 	Version {v}	{v} verzió
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	Tiszta szobás, nyílt forráskódú PDF-alkalmazás, Rustban írva. MIT OR Apache-2.0.
-	Part of	Része
 	Summarize Options	Összefoglaló beállításai
 	Choose a layout:	Válassz elrendezést:
 	Comments only	Csak megjegyzések
@@ -2514,3 +2506,7 @@ animation effects	Off	Ki
 	field names can't contain a period: {name}	a mezőnevek nem tartalmazhatnak pontot: {name}
 	two cells would both be named {name}	két cella neve is {name} lenne
 	a field named {name} already exists	már van {name} nevű mező
+	Report a problem with this build	Hiba jelentése ezzel a változattal kapcsolatban
+	This build on GitHub	Ez a változat a GitHubon
+	Upstream PdfCraft on GitHub	Az eredeti PdfCraft a GitHubon
+	Upstream PdfCraft releases	Az eredeti PdfCraft kiadásai

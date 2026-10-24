@@ -612,7 +612,6 @@
 	From {file}	Fra {file}
 	From:	Fra:
 	Front side only	Bare forsiden
-	Get help, share feedback and follow development on Discord.	Få hjelp, gi tilbakemelding og følg utviklingen på Discord.
 	Go to a page view	Gå til en sidevisning
 	Go to page {p}	Gå til side {p}
 	Go to the page	Gå til siden
@@ -664,8 +663,6 @@
 	JavaScript Console	JavaScript-konsoll
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript er slått av (Innstillinger > JavaScript).
 	JavaScript, e.g. getField("total").value	JavaScript, f.eks. getField("total").value
-	Join our Discord	Bli med på Discord-serveren vår
-	Join the ArtCraft community	Bli med i ArtCraft-fellesskapet
 	Justify	Blokkjuster
 	Keep source fonts	Behold kildeskrifter
 	Keep tool selected	Behold verktøyet valgt
@@ -856,7 +853,6 @@
 	Pages:	Sider:
 	Pages: {k} of {n}	Sider: {k} av {n}
 	Paper:	Papir:
-	Part of	Del av
 	Password	Passord
 	Password required	Passord kreves
 	Password security	Passordsikkerhet
@@ -1335,7 +1331,6 @@
 	Archive documents	Arkiver dokumenter
 	Area	Areal
 	Arrow	Pil
-	ArtCraft website	ArtCraft-nettsted
 	Ask about this document	Spør om dette dokumentet
 	Attach a file	Legg ved en fil
 	Attach file	Legg ved fil
@@ -1470,7 +1465,6 @@
 	Insert text	Sett inn tekst
 	JavaScript	JavaScript
 	JavaScript console…	JavaScript-konsoll…
-	Join the ArtCraft Discord	Bli med i ArtCraft-Discorden
 	Light gray	Lys grå
 	Line	Linje
 	Link	Lenke
@@ -1501,8 +1495,6 @@
 	Page options	Sidealternativer
 	Page transitions	Sideoverganger
 	Paste pages	Lim inn sider
-	PdfCraft on GitHub	PdfCraft på GitHub
-	PdfCraft web page	PdfCraft-nettside
 	Perimeter	Omkrets
 	Pin folder to Home…	Fest mappe til Hjem…
 	PostScript / EPS	PostScript / EPS
@@ -2694,3 +2686,7 @@ key	Space	Mellomrom
 # Page gaps (AI-assisted, not separately native-reviewed)
 	Show gaps between pages	Vis mellomrom mellom sidene
 	Hide gaps to join page edges. Margins inside the PDF remain unchanged.	Skjul mellomrommene slik at sidekantene møtes. Margene inne i PDF-en endres ikke.
+	Report a problem with this build	Rapporter et problem med denne versjonen
+	This build on GitHub	Denne versjonen på GitHub
+	Upstream PdfCraft on GitHub	Opprinnelig PdfCraft på GitHub
+	Upstream PdfCraft releases	Utgivelser av opprinnelig PdfCraft

@@ -3,9 +3,11 @@ Copyright (c) 2026 ArtCraft Team and the PdfCraft contributors.
 Licensed under the MIT License or the Apache License, Version 2.0, at your option
 (LICENSE-MIT, LICENSE-APACHE).
 
-The ArtCraft name, wordmark and logos in docs/brand/ are trademarks of the ArtCraft Team. They are
-not open source and are not covered by the license above; their terms are in
-docs/brand/LICENSE-brand.txt.
+This is an unofficial modified version of PdfCraft (stylus mode for pen tablets), published at
+https://github.com/kjyounkin/pdfcraft. It is based on PdfCraft by the ArtCraft team and is not
+made, endorsed or supported by them. As upstream's brand terms require of modified versions, the
+ArtCraft name, wordmark and logos (upstream docs/brand/) have been removed from it; they are
+trademarks of the ArtCraft Team and were never covered by the license above.
 
 Third-party material
 

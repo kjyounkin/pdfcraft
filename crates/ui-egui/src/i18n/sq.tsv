@@ -229,7 +229,6 @@
 	Archive documents	Arkivo dokumentet
 	Area	Sipërfaqja
 	Arrow	Shigjetë
-	ArtCraft website	Faqja e internetit e ArtCraft
 	Ask about this document	Pyet për këtë dokument
 	Asks GitHub for the latest release. Nothing is downloaded or installed automatically.	I kërkon GitHub-it versionin më të fundit. Asgjë nuk shkarkohet ose instalohet automatikisht.
 	Associated with content	E lidhur me përmbajtjen
@@ -867,7 +866,6 @@
 	Full screen mode	Modaliteti me ekran të plotë
 	General	Të përgjithshme
 	Geospatial location	Vendndodhja gjeohapësinore
-	Get help, share feedback and follow development on Discord.	Merr ndihmë, ndaj komente dhe ndiq zhvillimin në Discord.
 	Go to a page view	Shko te një pamje faqeje
 	Go to page {p}	Shko te faqja {p}
 	Go to page…	Shko te faqja…
@@ -973,9 +971,6 @@
 	JavaScript console…	Konsola JavaScript…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript është çaktivizuar (Preferencat > JavaScript).
 	JavaScript, e.g. getField("total").value	JavaScript, p.sh. getField("total").value
-	Join our Discord	Bashkohu me Discord-in tonë
-	Join the ArtCraft Discord	Bashkohu me Discord-in e ArtCraft
-	Join the ArtCraft community	Bashkohu me komunitetin e ArtCraft
 	July	Korrik
 	June	Qershor
 	Justify	Drejto në të dyja anët
@@ -1293,7 +1288,6 @@
 	Pages with links, comments or fields should tab in structure order. The fix sets each page's tab order to Use Document Structure.	Faqet me lidhje, komente ose fusha duhet të kalojnë me tab sipas radhës së strukturës. Rregullimi vendos radhën e tab-it të çdo faqeje te Përdor strukturën e dokumentit.
 	Pages:	Faqet:
 	Paper:	Letra:
-	Part of	Pjesë e
 	Passed	Kaloi
 	Password	Fjalëkalimi
 	Password protection will be applied when you save	Mbrojtja me fjalëkalim do të zbatohet kur të ruash
@@ -1307,8 +1301,6 @@
 	Patterns	Modelet
 	Patterns (graphics objects)	Modelet (objekte grafike)
 	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	PdfCraft nuk u mbyll normalisht. Këta dokumente kishin ndryshime të ruajtura automatikisht:
-	PdfCraft on GitHub	PdfCraft në GitHub
-	PdfCraft web page	Faqja ueb e PdfCraft
 	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft funksionon pa internet. Pa telemetri, pa llogari dhe pa përpunim në re, përveçse nëse shton një ofrues.
 	PdfCraft {c} is up to date.	PdfCraft {c} është i përditësuar.
 	PdfCraft {v} is available.	PdfCraft {v} është i disponueshëm.
@@ -2500,3 +2492,7 @@ animation effects	Off	Joaktiv
 	field names can't contain a period: {name}	emrat e fushave nuk mund të përmbajnë pikë: {name}
 	two cells would both be named {name}	dy qeliza do të kishin të dyja emrin {name}
 	a field named {name} already exists	ekziston tashmë një fushë me emrin {name}
+	Report a problem with this build	Raporto një problem me këtë version
+	This build on GitHub	Ky version në GitHub
+	Upstream PdfCraft on GitHub	PdfCraft origjinal në GitHub
+	Upstream PdfCraft releases	Versionet e PdfCraft origjinal

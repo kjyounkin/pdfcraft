@@ -89,7 +89,6 @@
 	Flatten Fill & Sign when saving	Расплющить «Заполнить и подписать» при сохранении
 	Text, marks and signatures become part of the page. Other comments stay editable.	Текст, пометки и подписи становятся частью страницы. Остальные комментарии можно по-прежнему править.
 	OK	OK
-	Join our Discord	Присоединяйтесь к нашему Discord
 	Close	Закрыть
 	Next / previous match	Следующее / предыдущее совпадение
 	Copy selected text	Копировать выделенный текст
@@ -160,8 +159,6 @@
 	Zoom — type a percentage and press Enter	Масштаб — введите процент и нажмите Enter
 	Welcome to PdfCraft	Добро пожаловать в PdfCraft
 	An open-source PDF workbench — local, private, and scriptable.	Открытый PDF-редактор — локальный, приватный и программируемый.
-	Join the ArtCraft community	Присоединяйтесь к сообществу ArtCraft
-	Get help, share feedback and follow development on Discord.	Получайте помощь, делитесь отзывами и следите за разработкой в Discord.
 	Recommended tools	Рекомендуемые инструменты
 	Use now	Использовать сейчас
 	Open file	Открыть файл
@@ -306,10 +303,6 @@
 	Split document…	Разделить документ…
 	Number pages…	Пронумеровать страницы…
 	Keyboard shortcuts	Горячие клавиши
-	Join the ArtCraft Discord	Присоединяйтесь к Discord ArtCraft
-	PdfCraft web page	Веб-страница PdfCraft
-	PdfCraft on GitHub	PdfCraft на GitHub
-	ArtCraft website	Веб-сайт ArtCraft
 	Check for updates…	Проверить обновления…
 	About PdfCraft	О программе PdfCraft
 	Export a PDF	Экспортировать PDF
@@ -1449,7 +1442,6 @@
 	Discard	Отклонить
 	Version {v}	Версия {v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	Открытое PDF-приложение с чистой комнатой, написанное на Rust. MIT OR Apache-2.0.
-	Part of	Часть
 	Summarize Options	Параметры суммирования
 	Choose a layout:	Выберите макет:
 	Comments only	Только комментарии
@@ -2428,3 +2420,7 @@ animation effects	Off	Выкл
 	field names can't contain a period: {name}	имена полей не могут содержать точку: {name}
 	two cells would both be named {name}	две ячейки получили бы одно имя {name}
 	a field named {name} already exists	поле с именем {name} уже существует
+	Report a problem with this build	Сообщить о проблеме в этой сборке
+	This build on GitHub	Эта сборка на GitHub
+	Upstream PdfCraft on GitHub	Оригинальный PdfCraft на GitHub
+	Upstream PdfCraft releases	Выпуски оригинального PdfCraft

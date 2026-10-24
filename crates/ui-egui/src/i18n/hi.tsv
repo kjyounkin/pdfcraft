@@ -75,7 +75,6 @@
 	Side panels	साइड पैनल
 	Enable Acrobat JavaScript	Acrobat JavaScript सक्षम करें
 	OK	ठीक है
-	Join our Discord	हमारे Discord से जुड़ें
 	Close	बंद करें
 	Next / previous match	अगला / पिछला मिलान
 	Copy selected text	चयनित टेक्स्ट कॉपी करें
@@ -145,8 +144,6 @@
 	Current page — type a page number or label (such as iv) and press Enter	वर्तमान पृष्ठ — पृष्ठ संख्या या लेबल (जैसे iv) टाइप करें और Enter दबाएँ
 	Welcome to PdfCraft	PdfCraft में आपका स्वागत है
 	An open-source PDF workbench — local, private, and scriptable.	एक ओपन-सोर्स पीडीएफ़ वर्कबेंच — स्थानीय, निजी और स्क्रिप्टेबल।
-	Join the ArtCraft community	ArtCraft समुदाय से जुड़ें
-	Get help, share feedback and follow development on Discord.	Discord पर सहायता प्राप्त करें, प्रतिक्रिया साझा करें और विकास पर नज़र रखें।
 	Recommended tools	अनुशंसित टूल
 	Use now	अभी उपयोग करें
 	Open file	फ़ाइल खोलें
@@ -291,10 +288,6 @@
 	Split document…	दस्तावेज़ विभाजित करें…
 	Number pages…	पृष्ठों पर नंबर लगाएँ…
 	Keyboard shortcuts	कीबोर्ड शॉर्टकट
-	Join the ArtCraft Discord	ArtCraft Discord से जुड़ें
-	PdfCraft web page	PdfCraft वेबपेज
-	PdfCraft on GitHub	GitHub पर PdfCraft
-	ArtCraft website	ArtCraft वेबसाइट
 	Check for updates…	अपडेट की जाँच करें…
 	About PdfCraft	PdfCraft के बारे में
 	Export a PDF	पीडीएफ़ निर्यात करें
@@ -1378,7 +1371,6 @@
 	Discard	छोड़ दें
 	Version {v}	संस्करण {v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	Rust में लिखा गया एक क्लीन-रूम, ओपन-सोर्स पीडीएफ़ ऐप्लिकेशन। MIT OR Apache-2.0।
-	Part of	इसका हिस्सा
 	Summarize Options	सारांश विकल्प
 	Choose a layout:	एक लेआउट चुनें:
 	Comments only	केवल टिप्पणियाँ
@@ -2750,3 +2742,7 @@ theme	Appearance	स्वरूप
 	field names can't contain a period: {name}	फ़ील्ड के नामों में पूर्ण विराम (.) नहीं हो सकता: {name}
 	two cells would both be named {name}	दो सेल का नाम {name} हो जाएगा
 	a field named {name} already exists	{name} नाम का फ़ील्ड पहले से मौजूद है
+	Report a problem with this build	इस बिल्ड में समस्या की रिपोर्ट करें
+	This build on GitHub	GitHub पर यह बिल्ड
+	Upstream PdfCraft on GitHub	GitHub पर मूल PdfCraft
+	Upstream PdfCraft releases	मूल PdfCraft के रिलीज़

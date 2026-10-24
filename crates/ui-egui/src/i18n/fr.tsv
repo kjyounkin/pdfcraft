@@ -69,7 +69,6 @@
 	Flatten Fill & Sign when saving	Aplatir Remplir et signer à l'enregistrement
 	Text, marks and signatures become part of the page. Other comments stay editable.	Le texte, les marques et les signatures deviennent partie de la page. Les autres commentaires restent modifiables.
 	OK	OK
-	Join our Discord	Rejoindre notre Discord
 	Close	Fermer
 	Next / previous match	Correspondance suivante / précédente
 	Copy selected text	Copier le texte sélectionné
@@ -140,8 +139,6 @@
 	Zoom — type a percentage and press Enter	Zoom — saisissez un pourcentage et appuyez sur Entrée
 	Welcome to PdfCraft	Bienvenue dans PdfCraft
 	An open-source PDF workbench — local, private, and scriptable.	Un atelier PDF open source — local, privé et automatisable.
-	Join the ArtCraft community	Rejoindre la communauté ArtCraft
-	Get help, share feedback and follow development on Discord.	Obtenez de l'aide, partagez vos retours et suivez le développement sur Discord.
 	Recommended tools	Outils recommandés
 	Use now	Utiliser
 	Open file	Ouvrir un fichier
@@ -286,10 +283,6 @@
 	Split document…	Fractionner le document…
 	Number pages…	Numéroter les pages…
 	Keyboard shortcuts	Raccourcis clavier
-	Join the ArtCraft Discord	Rejoindre le Discord ArtCraft
-	PdfCraft web page	Page web de PdfCraft
-	PdfCraft on GitHub	PdfCraft sur GitHub
-	ArtCraft website	Site web d'ArtCraft
 	Check for updates…	Rechercher des mises à jour…
 	About PdfCraft	À propos de PdfCraft
 	Export a PDF	Exporter un PDF
@@ -1428,7 +1421,6 @@
 	Discard	Abandonner
 	Version {v}	Version {v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	Une application PDF open source, en salle blanche, écrite en Rust. MIT OR Apache-2.0.
-	Part of	Partie de
 	Summarize Options	Options du résumé
 	Choose a layout:	Choisissez une disposition :
 	Comments only	Commentaires seulement
@@ -2781,3 +2773,7 @@ certificate	Version	Version
 	field names can't contain a period: {name}	les noms de champ ne peuvent pas contenir de point : {name}
 	two cells would both be named {name}	deux cellules porteraient le nom {name}
 	a field named {name} already exists	un champ nommé {name} existe déjà
+	Report a problem with this build	Signaler un problème avec cette version
+	This build on GitHub	Cette version sur GitHub
+	Upstream PdfCraft on GitHub	PdfCraft d'origine sur GitHub
+	Upstream PdfCraft releases	Versions du PdfCraft d'origine

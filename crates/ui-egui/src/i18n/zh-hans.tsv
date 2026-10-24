@@ -1407,7 +1407,6 @@
 	Select all pages (Organize)	选择所有页面（组织页面）
 	Version {v}	版本{v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	用 Rust 从零编写的开源 PDF 应用。MIT OR Apache-2.0 许可。
-	Part of	隶属于
 	Summarize Options	汇总选项
 	Choose a layout:	选择布局：
 	Comments only	仅注释
@@ -1878,13 +1877,6 @@
 	Split document…	拆分文档…
 	Number pages…	页面编号…
 	Keyboard shortcuts	键盘快捷键
-	Join the ArtCraft Discord	加入 ArtCraft Discord
-	Join the ArtCraft community	加入 ArtCraft 社区
-	Get help, share feedback and follow development on Discord.	在 Discord 上获取帮助、分享反馈并关注开发动态。
-	Join our Discord	加入我们的 Discord
-	PdfCraft web page	PdfCraft 网页
-	PdfCraft on GitHub	GitHub 上的 PdfCraft
-	ArtCraft website	ArtCraft 官网
 	Check for updates…	检查更新…
 	About PdfCraft	关于 PdfCraft
 	JavaScript console…	JavaScript 控制台…
@@ -2479,3 +2471,7 @@ animation effects	Off	关
 	field names can't contain a period: {name}	字段名称不能包含句点：{name}
 	two cells would both be named {name}	两个单元格的名称都会是 {name}
 	a field named {name} already exists	已存在名为 {name} 的字段
+	Report a problem with this build	报告此版本的问题
+	This build on GitHub	GitHub 上的此版本
+	Upstream PdfCraft on GitHub	GitHub 上的原版 PdfCraft
+	Upstream PdfCraft releases	原版 PdfCraft 发布版本

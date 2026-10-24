@@ -615,7 +615,6 @@ theme	Appearance	Giao diện
 	From {file}	Từ {file}
 	From:	Từ:
 	Front side only	Chỉ mặt trước
-	Get help, share feedback and follow development on Discord.	Nhận trợ giúp, chia sẻ phản hồi và theo dõi quá trình phát triển trên Discord.
 	Go to a page view	Đi tới một chế độ xem trang
 	Go to page {p}	Đi tới trang {p}
 	Go to the page	Đi tới trang
@@ -669,8 +668,6 @@ theme	Appearance	Giao diện
 	JavaScript Console	Bảng điều khiển JavaScript
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript đã bị tắt (Tùy chọn > JavaScript).
 	JavaScript, e.g. getField("total").value	JavaScript, ví dụ getField("total").value
-	Join our Discord	Tham gia Discord của chúng tôi
-	Join the ArtCraft community	Tham gia cộng đồng ArtCraft
 	Justify	Căn đều
 	Keep source fonts	Giữ phông chữ nguồn
 	Keep tool selected	Giữ công cụ được chọn
@@ -892,7 +889,6 @@ theme	Appearance	Giao diện
 	Pages:	Trang:
 	Pages: {k} of {n}	Trang: {k} trên {n}
 	Paper:	Giấy:
-	Part of	Một phần của
 	Password	Mật khẩu
 	Password required	Yêu cầu mật khẩu
 	Password security	Bảo mật bằng mật khẩu
@@ -1373,7 +1369,6 @@ theme	Appearance	Giao diện
 	Archive documents	Lưu trữ tài liệu
 	Area	Diện tích
 	Arrow	Mũi tên
-	ArtCraft website	Trang web ArtCraft
 	Ask about this document	Hỏi về tài liệu này
 	Attach a file	Đính kèm một tệp
 	Attach file	Đính kèm tệp
@@ -1508,7 +1503,6 @@ theme	Appearance	Giao diện
 	Insert text	Chèn văn bản
 	JavaScript	JavaScript
 	JavaScript console…	Bảng điều khiển JavaScript…
-	Join the ArtCraft Discord	Tham gia Discord của ArtCraft
 	Light gray	Xám nhạt
 	Line	Đường thẳng
 	Link	Liên kết
@@ -1539,8 +1533,6 @@ theme	Appearance	Giao diện
 	Page options	Tùy chọn trang
 	Page transitions	Hiệu ứng chuyển trang
 	Paste pages	Dán trang
-	PdfCraft on GitHub	PdfCraft trên GitHub
-	PdfCraft web page	Trang web PdfCraft
 	Perimeter	Chu vi
 	Pin folder to Home…	Ghim thư mục vào Trang chủ…
 	PostScript / EPS	PostScript / EPS
@@ -2780,3 +2772,7 @@ key	Space	Space
 	a table has 1 to {max} columns	một bảng có từ 1 đến {max} cột
 	the first row number can be at most {max}	số hàng đầu tiên tối đa là {max}
 	the area, the spacing and the column widths must be numbers, the spacing 0 or more and each width more than 0	vùng, khoảng cách và độ rộng cột phải là số, khoảng cách từ 0 trở lên và mỗi độ rộng lớn hơn 0
+	Report a problem with this build	Báo cáo sự cố với bản dựng này
+	This build on GitHub	Bản dựng này trên GitHub
+	Upstream PdfCraft on GitHub	PdfCraft gốc trên GitHub
+	Upstream PdfCraft releases	Các bản phát hành PdfCraft gốc

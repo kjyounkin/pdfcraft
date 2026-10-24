@@ -96,7 +96,6 @@
 	Side panels	サイドパネル
 	Enable Acrobat JavaScript	Acrobat JavaScript を有効にする
 	OK	OK
-	Join our Discord	Discord に参加
 	Close	閉じる
 	Next / previous match	次／前の検索結果
 	Copy selected text	選択したテキストをコピー
@@ -167,8 +166,6 @@
 	Zoom — type a percentage and press Enter	ズーム — パーセンテージを入力して Enter キーを押します
 	Welcome to PdfCraft	PdfCraft へようこそ
 	An open-source PDF workbench — local, private, and scriptable.	ローカルで処理し、プライバシーを守る、スクリプト対応のオープンソース PDF ツール。
-	Join the ArtCraft community	ArtCraft コミュニティに参加
-	Get help, share feedback and follow development on Discord.	Discord で質問やフィードバックを共有し、開発の進捗を確認できます。
 	Recommended tools	おすすめのツール
 	Use now	使用する
 	Open file	ファイルを開く
@@ -313,10 +310,6 @@
 	Split document…	文書を分割…
 	Number pages…	ページ番号を設定…
 	Keyboard shortcuts	キーボードショートカット
-	Join the ArtCraft Discord	ArtCraft の Discord に参加
-	PdfCraft web page	PdfCraft の Web 版
-	PdfCraft on GitHub	GitHub の PdfCraft
-	ArtCraft website	ArtCraft のウェブサイト
 	Check for updates…	更新を確認…
 	About PdfCraft	PdfCraft について
 	Export a PDF	PDF を書き出す
@@ -1449,7 +1442,6 @@
 	Discard	破棄
 	Version {v}	バージョン {v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	Rust で記述したクリーンルーム方式のオープンソース PDF アプリケーション。MIT OR Apache-2.0。
-	Part of	関連プロジェクト
 	Summarize Options	一覧のオプション
 	Choose a layout:	レイアウトを選択:
 	Comments only	注釈のみ
@@ -2515,3 +2507,7 @@ animation effects	Off	オフ
 	field names can't contain a period: {name}	フィールド名にピリオドは使えません: {name}
 	two cells would both be named {name}	2 つのセルが同じ名前 {name} になります
 	a field named {name} already exists	{name} という名前のフィールドは既にあります
+	Report a problem with this build	このビルドの問題を報告
+	This build on GitHub	GitHub のこのビルド
+	Upstream PdfCraft on GitHub	GitHub の本家 PdfCraft
+	Upstream PdfCraft releases	本家 PdfCraft のリリース

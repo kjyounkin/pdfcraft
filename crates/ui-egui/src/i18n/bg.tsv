@@ -1400,7 +1400,6 @@
 	Select all pages (Organize)	Избери всички страници (Организиране)
 	Version {v}	Версия {v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	Независимо разработено PDF приложение с отворен код, написано на Rust. MIT OR Apache-2.0.
-	Part of	Част от
 	Summarize Options	Опции за обобщение
 	Choose a layout:	Изберете оформление:
 	Comments only	Само коментари
@@ -1871,13 +1870,6 @@
 	Split document…	Раздели документа…
 	Number pages…	Номерирай страниците…
 	Keyboard shortcuts	Клавишни комбинации
-	Join the ArtCraft Discord	Присъедини се към ArtCraft в Discord
-	Join the ArtCraft community	Присъедини се към общността на ArtCraft
-	Get help, share feedback and follow development on Discord.	Получете помощ, споделете мнение и следете разработката в Discord.
-	Join our Discord	Присъедини се към нашия Discord
-	PdfCraft web page	Уебстраница на PdfCraft
-	PdfCraft on GitHub	PdfCraft в GitHub
-	ArtCraft website	Уебсайт на ArtCraft
 	Check for updates…	Провери за актуализации…
 	About PdfCraft	За PdfCraft
 	JavaScript console…	JavaScript конзола…
@@ -2478,3 +2470,7 @@ animation effects	Off	Изключени
 	field names can't contain a period: {name}	имената на полетата не може да съдържат точка: {name}
 	two cells would both be named {name}	две клетки биха имали едно и също име {name}
 	a field named {name} already exists	вече съществува поле с име {name}
+	Report a problem with this build	Докладване на проблем с тази компилация
+	This build on GitHub	Тази компилация в GitHub
+	Upstream PdfCraft on GitHub	Оригиналният PdfCraft в GitHub
+	Upstream PdfCraft releases	Издания на оригиналния PdfCraft
